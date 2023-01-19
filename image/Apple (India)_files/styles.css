@@ -1,0 +1,65 @@
+.main [data-module-template="heroes"] [data-unit-id="iphone-14-pro"] .avail {
+	color: #86868b;
+
+	background: transparent;
+	border: 1px solid #6e6e73;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.3333733333;
+	font-weight: 400;
+	letter-spacing: -0.01em;
+	font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+		sans-serif;
+	border-radius: 16px;
+	padding: 5px 10px;
+	margin-top:15px;
+}
+
+.main [data-module-template="heroes"] [data-unit-id="iphone-14-pro"] .unit-copy-wrapper > *.cta-links {
+	display: block;
+	margin-top:15px;
+}
+
+.main [data-module-template="heroes"] [data-unit-id="iphone-14-pro"] .avail {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main [data-module-template="heroes"] [data-unit-id="iphone-14-pro"] .unit-wrapper {
+	padding-bottom: 48px;
+}
+
+.main [data-module-template="heroes"].collection-module [data-unit-id="iphone-14-pro"] {
+	padding-bottom: 48px;
+	box-sizing: inherit;
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] [data-unit-id="iphone-14-pro"] .unit-wrapper {
+		padding-bottom: 0;
+	}
+
+	.main [data-module-template="heroes"].collection-module [data-unit-id="iphone-14-pro"] {
+		padding-bottom: 0;
+		box-sizing: inherit;
+	}
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-14-pro-hero-iphone14pro {
+		background-size: calc(1068px - 20px) calc(694px - 20px);
+		background-position-y: bottom;
+		background-position-x: center;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="heroes"] [data-unit-id="iphone-14-pro"] .unit-wrapper {
+		padding-bottom: 48px;
+	}
+
+	.main [data-module-template="heroes"].collection-module [data-unit-id="iphone-14-pro"] {
+		padding-bottom: 48px;
+		box-sizing: inherit;
+	}
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-14-pro-hero-iphone14pro {
+		background-size: 734px 548px;
+	}
+}
